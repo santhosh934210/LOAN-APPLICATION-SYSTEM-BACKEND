@@ -19,7 +19,7 @@ public class CorsConfig {
         CorsConfiguration cfg = new CorsConfiguration();
         // cfg.setAllowedOrigins(List.of(allowedOrigin));
         //for testing
-        cfg.setAllowedOriginPatterns(List.of("http://localhost:5173","http://localhost:5174","https://loan-application-system-santhosh.vercel.app")); // ✅ allow all localhost ports
+        cfg.setAllowedOriginPatterns(List.of("http://localhost:5173","http://localhost:5174","https://loanapplicationsystem.vercel.app")); // ✅ allow all localhost ports
         cfg.setAllowedMethods(List.of("GET","POST","PUT","PATCH","DELETE","OPTIONS"));
         cfg.setAllowedHeaders(List.of("*"));
         cfg.setAllowCredentials(true);

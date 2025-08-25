@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/applications")
-@CrossOrigin(origins = "https://loan-application-system-santhosh.vercel.app")
+@CrossOrigin(origins = "https://loanapplicationsystem.vercel.app")
 public class LoanApplicationController {
 
     @Autowired
